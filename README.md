@@ -1,16 +1,51 @@
-# sql_flite
+# 📝 Notes App
 
-A new Flutter project.
+تطبيق ملاحظات بسيط ومميز تم تطويره باستخدام **Flutter** و **SQLite**، يدعم الوضع الداكن والفاتح.
 
-## Getting Started
+![Flutter](https://img.shields.io/badge/Flutter-3.16+-blue?logo=flutter)
+![SQLite](https://img.shields.io/badge/SQLite-3-green?logo=sqlite)
+![Dart](https://img.shields.io/badge/Dart-3.0+-blue?logo=dart)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ المميزات
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ✅ إضافة ملاحظات جديدة
+- ✅ تعديل الملاحظات الموجودة
+- ✅ حذف الملاحظات
+- ✅ اختيار لون لكل ملاحظة
+- 🌙 دعم الوضع الداكن (Dark Mode) تلقائي
+- 🎨 تصميم عصري وجميل
+- 📱 متوافق مع Android
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📱 لقطات من التطبيق
+
+| الصفحة الرئيسية | إضافة ملاحظة | وضع داكن |
+|----------------|--------------|----------|
+| ![الصفحة الرئيسية]() | ![إضافة ملاحظة]() | ![وضع داكن]() |
+
+> 💡 يمكنك إضافة صورك بعد رفع المشروع
+
+---
+
+## 🛠️ التقنيات المستخدمة
+
+| التقنية | الاستخدام |
+|---------|-----------|
+| **Flutter** | إطار عمل التطبيق |
+| **SQLite** | قاعدة بيانات محلية |
+| **sqflite** | التعامل مع SQLite في Flutter |
+| **path** | تحديد مسار قاعدة البيانات |
+
+---
+
+## 📂 هيكل المشروع
+lib/
+├── main.dart # نقطة البداية
+├── home.dart # الصفحة الرئيسية
+├── addnotes.dart # إضافة ملاحظة
+├── editenotes.dart # تعديل ملاحظة
+├── sqldb.dart # التعامل مع قاعدة البيانات
+└── theme.dart # إلثيم
